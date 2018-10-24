@@ -1,0 +1,129 @@
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 20px;
+  margin: 20px 0px;
+  text-align: justify;
+}
+
+.round {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.border-round {
+  border: 3px solid;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.i {
+  font-size: 15px;
+}
+
+body {
+  background-color: rgb(235, 235, 235);
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(45, 45, 45);
+  font-size: 15px;
+  line-height: normal;
+}
+
+ul {
+  padding: 0px;
+}
+
+
+.head-red {
+  color: rgb(237, 86, 0);
+  font-size:25px;
+  line-height: .85;
+}
+
+.title {
+  color: #412D00;
+  font-size: 20px;
+  line-height: .7;
+  font-weight: 175;
+}
+
+
+h2 {
+  color: rgb(55, 55, 55);
+  font-size: 22px;
+  line-height: .75;
+  font-weight: 220;
+
+}
+
+li {
+  color: white
+}
+
+a {
+  font-size: 13px;
+  color: #46C5E8;
+  line-height: 1.55;
+}
+
+a:hover {
+  color: rgb(237, 86, 0);
+}
+
+p {
+  color: rgb(125, 125, 125);
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.6;
+  padding: 15px;
+}
+
+table {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+img {
+  width: 250px;
+}
+
+.red-button {
+  background-color: #ce2525;
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.li-inline {
+  display: inline; /* the default for span */
+  padding: 5px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
